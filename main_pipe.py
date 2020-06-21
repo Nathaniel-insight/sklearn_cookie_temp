@@ -7,6 +7,6 @@
 
 from train_pipe import data, clean, preprocess_p, train, evaluate, save_p
 
-df = data.load_iris()
+df = data.load_test_data()
 
-print(df.head())
+print(df.head())2
