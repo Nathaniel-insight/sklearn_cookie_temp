@@ -3,8 +3,8 @@ Templated machine learning pipeline using sklearn transformers for easy iterativ
 
 Follows structure from "ML powered products"
 
-Data --> Clean --> Preprocess --> Train --> Evaluate --> Deliver?
+Data --> Clean --> Preprocess --> Train --> Evaluate --> Save
 
-Data --> Clean --> Preprocess --> ...?
+Data --> Clean --> Preprocess --> Run --> Clean Results --> Return
 
 
