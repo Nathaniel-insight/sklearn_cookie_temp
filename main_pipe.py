@@ -7,6 +7,14 @@
 
 from train_pipe import data, clean, preprocess_p, train, evaluate, save_p
 
-df = data.load_test_data()
+def run_main_pipe():
+    """
+    Runs main pipe
+    :return:
+    """
+    df = data.load_test_data()
+    print(df.head())
 
-print(df.head())
+
+if __name__ == "__main__":
+    run_main_pipe()
